@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://www.seekpng.com/png/detail/60-602469_custom-tees-imprinted-logo-t-shirt-logos-png.png" type="image/x-icon">
+    <title>Custom T-shirts</title>
+</head>
+
+<body>
+    <form action="">
+        <!-- image -->
+        <img src="https://outoforder.in/wp-content/uploads/2020/03/Plain-White-Tshirt-for-Men.jpg" alt="white shirt"
+            width="250" height="250" style="border: 2px solid black;"><br><br>
+
+        <!-- custom tshirt information -->
+        <fieldset style="width:auto;">
+            <legend><b>Enter Your Custom T-shirt Details Here:-</b></legend><br>
+
+        <label for="tagline">Enter your Tagline:-</label>
+        <input type="text" name="tagline" id="tagline" placeholder="Click To Enter Your Tagline"><br><br>
+
+        <label for="color">Color of the T-shirt:-</label><br><br>
+        <input type="color" id="color" name="color" placeholder="Choose Your Custom Tshirt color"><br><br>
+
+        <label for="Quantity">Quantity of the T-shirt:-</label><br><br>
+        <input type="number" min="01" max="09" id="Quantity" name="Quantity" placeholder="Quantity" style="width: 80px;"><br><br>
+
+        <label for="Size">Size of the T-shirt:-</label><br><br>
+        <select name="Size" id="Size">
+            <option value="XS">XS</option>
+            <option value="S">S</option>
+            <option value="M" selected>M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+        </select><br><br>
+
+        <label for="description">Additional Details:-</label><br><br>
+        <textarea name="description" id="description" cols="30" rows="10"
+            placeholder="Mention Extra Details of Your Product"></textarea><br><br>
+
+        <label for="date">Select Date of Delivery You want:-</label><br><br>
+        <input type="date" name="date" id="date"><br><br>
+    </fieldset><br>
+
+        <!-- Personal information -->
+        <fieldset style="width:auto;">
+        <legend> <b>Enter Your Details Here:- </b></legend><br>
+        <label for="fname">First name:-</label><br><br>
+        <input type="text" id="fname" name="fname" placeholder="Enter Your first name here"><br><br>
+
+        <label for="lname">Last Name</label><br><br>
+        <input type="text" id="lname" name="lname" placeholder="Enter Your Surname here"><br><br>
+
+        <label for="address">Address</label><br><br>
+        <textarea name="address" id="address" cols="20" rows="3" maxlength="200"
+            placeholder="Enter Your address here"></textarea><br><br>
+
+        <label for="Contact">Contact No:-</label><br><br>
+        <input type="tel" name="Contact" id="Contact" maxlength="10" placeholder="Enter Your contact no. here"><br><br>
+
+        <label for="email">Email:-</label><br><br>
+        <input type="email" name="email" id="email" placeholder="Enter your Email Here"><br><br>
+    </fieldset>
+    <br>
+
+        <!-- payment information -->
+        <fieldset>
+
+    <legend><b>Select Your Payment Option:-</b></legend><br>
+        <input type="radio" id="cod" name="payment" value="cod">
+        <label for="cod" title="cash on delivery">COD</label><br><br>
+
+        <input type="radio" id="upi" name="payment" value="upi">
+        <label for="upi">UPI</label><br><br>
+
+        <input type="radio" id="net" name="payment" value="net">
+        <label for="net">Net Banking</label><br><br>
+    </fieldset><br>
+
+        <input type="reset" value="Reset" style="width: 150px;"><br><br>
+
+        <input type="submit" value="Place Order" style="width: 150px;"><br>
+
+    </form>
+</body>
+
+</html>
